@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/django-play-1" config.wsgi:application
